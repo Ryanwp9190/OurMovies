@@ -160,7 +160,7 @@ namespace OurMovies.Controllers
             catch (Exception)
             {
 
-                throw; //Testing
+                throw;
             }
 
             return RedirectToAction("Index");
